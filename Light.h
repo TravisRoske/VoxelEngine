@@ -3,14 +3,12 @@
 #include <iostream>
 
 
-class Light {  //change later to extend entitiy
+class Light {  
 public:
     float intensity = 1;
-    float falloff = 128;
+    float falloff = 160;
 
     sf::Vector3i loc;
-    //sf::Color color;
-
 
     Light(){}
 
